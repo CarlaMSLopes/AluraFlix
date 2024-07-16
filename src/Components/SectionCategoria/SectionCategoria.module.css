@@ -1,0 +1,15 @@
+.container {
+  gap: 6rem;
+  padding: 2rem;
+}
+
+.container section {
+  gap: 2rem;
+}
+
+.container__Card {
+  gap: 2rem;
+}
+.carouseuItem {
+  margin: 48px;
+}

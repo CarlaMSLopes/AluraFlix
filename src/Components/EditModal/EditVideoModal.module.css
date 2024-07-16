@@ -1,0 +1,75 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: #0b132b; /* Fundo escuro */
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Cor do texto */
+  font-family: "Arial", sans-serif; /* Fonte */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.form input,
+.form textarea,
+.form select {
+  color: gray;
+  padding: 2%;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid var(--blue);
+}
+
+.btns {
+  display: flex;
+  flex-direction: row !important;
+}
+.btns button {
+  font-weight: 600;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  box-shadow: none;
+  cursor: pointer;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  width: 160px;
+  height: 40px;
+}
+
+.btnAdd {
+  border: 1px solid var(--blue);
+  background-color: black !important;
+  
+}
+.btnReset {
+  border: 1px solid white;
+}

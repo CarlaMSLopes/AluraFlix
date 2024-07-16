@@ -1,0 +1,45 @@
+.container {
+  background-color: black;
+  width: 432px;
+  width: 325px;
+  border-radius: 15px;
+}
+
+.container img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+}
+.btnsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0.5rem 0.2rem;
+}
+.btnsDiv button {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.blue {
+  border: 1px solid var(--frontend);
+  box-shadow: 0 0 1px var(--frontend), 0 0 2px var(--frontend),
+    0 0 5px var(--frontend), 0 0 7px var(--frontend);
+}
+
+.green {
+  border: 1px solid var(--backend);
+  box-shadow: 0 0 1px var(--backend), 0 0 2px var(--backend),
+    0 0 5px var(--backend), 0 0 7px var(--backend);
+}
+.yellow {
+  border: 1px solid var(--mobile);
+  box-shadow: 0 0 1px var(--mobile), 0 0 2px var(--mobile),
+    0 0 5px var(--mobile), 0 0 7px var(--mobile);
+}
